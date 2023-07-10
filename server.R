@@ -4,6 +4,11 @@ function(input, output, session) {
 
   observeEvent(input$submit, {
     
+    gs4_auth(
+      cache = gargle::gargle_oauth_cache(),
+      email = gargle::gargle_oauth_email()
+    )
+    
     # Retrieve existing datasheet
     sheet_url <- "https://docs.google.com/spreadsheets/d/14wDlPzgNjRf7eKpNRgfgn955Mk2nFsGXJWI51Pan2Z4/edit#gid=0"
     previous <- read_sheet(sheet_url)
