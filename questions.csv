@@ -8,32 +8,32 @@ Are you interested in submitting plant water potential data to the PSInet open-a
 Are you interested in submitting plant water potential data to the PSInet open-access data portal?,Not sure,mc,submission_interest,,,TRUE
 Site latitude (decimal degrees):,32.8958,numeric,lat,,,TRUE
 Site longitude (decimal degrees):,-117.2425,numeric,long,,,TRUE
-Which best describes your site type  and plant cultivation?,"Outdoor, planted in field soils",mc,site_type,,,TRUE
-Which best describes your site type  and plant cultivation?,"Controlled environment, one plant per pot",mc,site_type,,,TRUE
+Which best describes your site type  and plant cultivation?,"Field site, with plants grown in situ",mc,site_type,,,TRUE
+Which best describes your site type  and plant cultivation?,"Outdoor experiment, with plants planted in pots or gardens",mc,site_type,,,TRUE
+Which best describes your site type  and plant cultivation?,Greenhouse or growth chamber experiment,mc,site_type,,,TRUE
 Which best describes your site type  and plant cultivation?,Other,mc,site_type,,,TRUE
-Please select the vegetation type that best describes your site. ,Evergreen needleleaf forests,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Evergreen broadleaf forests,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Deciduous needleleaf forests,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Deciduous broadleaf forests,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Mixed forests,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Closed shrublands,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Open shrublands,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Woody savannas,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Savannas,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Grasslands,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Permanent wetlands,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Croplands,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Urban and built-up lands,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Cropland/natural vegetation mosaics,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Snow and ice,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Barren,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the vegetation type that best describes your site. ,Water bodies,select,veg_type,site_type,"Outdoor, planted in field soils",TRUE
-Please select the type of controlled conditions that best characterize your study. ,Glasshouse,select,control_type,site_type,"Controlled environment, one plant per pot",TRUE
-Please select the type of controlled conditions that best characterize your study. ,Growth chamber,select,control_type,site_type,"Controlled environment, one plant per pot",TRUE
-Please select the type of controlled conditions that best characterize your study. ,Shade house,select,control_type,site_type,"Controlled environment, one plant per pot",TRUE
+Please select the vegetation type that best describes your site. ,Evergreen needleleaf forests,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Evergreen broadleaf forests,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Deciduous needleleaf forests,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Deciduous broadleaf forests,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Mixed forests,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Closed shrublands,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Open shrublands,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Woody savannas,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Savannas,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Grasslands,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Permanent wetlands,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Croplands,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Urban and built-up lands,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Cropland/natural vegetation mosaics,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Snow and ice,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Barren,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
+Please select the vegetation type that best describes your site. ,Water bodies,select,veg_type,site_type,"Field site, with plants grown directly in the soil",TRUE
 "If other, please describe. ",Your answer,text,site_other,site_type,Other,TRUE
 "Were the plants in this study exposed to ambient meteorological conditions, or actively managed/subject to experimental manipulation (e.g., irrigation, fertilization, through-fall displacement)?",Ambient,mc,treatment_type,,,TRUE
 "Were the plants in this study exposed to ambient meteorological conditions, or actively managed/subject to experimental manipulation (e.g., irrigation, fertilization, through-fall displacement)?",Experimental,mc,treatment_type,,,TRUE
+"Were the plants in this study exposed to ambient meteorological conditions, or actively managed/subject to experimental manipulation (e.g., irrigation, fertilization, through-fall displacement)?",Other,mc,treatment_type,,,TRUE
+"If other, please describe. ",Your answer,text,treatment_other,treatment_type,Other,TRUE
 In which year did this study begin?,2015,numeric,year_start,,,TRUE
 In which year did this study end? Leave blank if study is ongoing. ,2017,numeric,year_end,,,FALSE
 Please list the species for which you have plant water potential. ,"Idria columnaris, Bursera microphylla, Phoradendron californicum",text,species_name,,,TRUE
