@@ -51,29 +51,29 @@ Which kinds of plant water potential measurements are available from this study?
 "Has this plant water potential dataset, in whole or in part, been previously published?",Yes,y/n,data_published,,,TRUE
 "Has this plant water potential dataset, in whole or in part, been previously published?",No,y/n,data_published,,,TRUE
 "If yes, please list any relevant DOI's. ",Your answer,text,publication_doi,data_published,Yes,FALSE
-Soil water content is available. ,Discrete,matrix,met_matrix,,,TRUE
-Soil water content is available. ,Continuous,matrix,met_matrix,,,TRUE
+Soil water content is available. ,Manual,matrix,met_matrix,,,TRUE
+Soil water content is available. ,Automated,matrix,met_matrix,,,TRUE
 Soil water content is available. ,Not available,matrix,met_matrix,,,TRUE
-Soil water potential (in situ) is available. ,Discrete,matrix,met_matrix,,,TRUE
-Soil water potential (in situ) is available. ,Continuous,matrix,met_matrix,,,TRUE
+Soil water potential (in situ) is available. ,Manual,matrix,met_matrix,,,TRUE
+Soil water potential (in situ) is available. ,Automated,matrix,met_matrix,,,TRUE
 Soil water potential (in situ) is available. ,Not available,matrix,met_matrix,,,TRUE
-Relative humidity is available. ,Discrete,matrix,met_matrix,,,TRUE
-Relative humidity is available. ,Continuous,matrix,met_matrix,,,TRUE
+Relative humidity is available. ,Manual,matrix,met_matrix,,,TRUE
+Relative humidity is available. ,Automated,matrix,met_matrix,,,TRUE
 Relative humidity is available. ,Not available,matrix,met_matrix,,,TRUE
-Vapor pressure deficit is available. ,Discrete,matrix,met_matrix,,,TRUE
-Vapor pressure deficit is available. ,Continuous,matrix,met_matrix,,,TRUE
+Vapor pressure deficit is available. ,Manual,matrix,met_matrix,,,TRUE
+Vapor pressure deficit is available. ,Automated,matrix,met_matrix,,,TRUE
 Vapor pressure deficit is available. ,Not available,matrix,met_matrix,,,TRUE
-Air temperature is available. ,Discrete,matrix,met_matrix,,,TRUE
-Air temperature is available. ,Continuous,matrix,met_matrix,,,TRUE
+Air temperature is available. ,Manual,matrix,met_matrix,,,TRUE
+Air temperature is available. ,Automated,matrix,met_matrix,,,TRUE
 Air temperature is available. ,Not available,matrix,met_matrix,,,TRUE
-Photosynthetically active radiation (PPFD or PAR) is available. ,Discrete,matrix,met_matrix,,,TRUE
-Photosynthetically active radiation (PPFD or PAR) is available. ,Continuous,matrix,met_matrix,,,TRUE
+Photosynthetically active radiation (PPFD or PAR) is available. ,Manual,matrix,met_matrix,,,TRUE
+Photosynthetically active radiation (PPFD or PAR) is available. ,Automated,matrix,met_matrix,,,TRUE
 Photosynthetically active radiation (PPFD or PAR) is available. ,Not available,matrix,met_matrix,,,TRUE
-Solar or net radiation is available,Discrete,matrix,met_matrix,,,TRUE
-Solar or net radiation is available,Continuous,matrix,met_matrix,,,TRUE
+Solar or net radiation is available,Manual,matrix,met_matrix,,,TRUE
+Solar or net radiation is available,Automated,matrix,met_matrix,,,TRUE
 Solar or net radiation is available,Not available,matrix,met_matrix,,,TRUE
-Windspeed is available.  ,Discrete,matrix,met_matrix,,,TRUE
-Windspeed is available.  ,Continuous,matrix,met_matrix,,,TRUE
+Windspeed is available.  ,Manual,matrix,met_matrix,,,TRUE
+Windspeed is available.  ,Automated,matrix,met_matrix,,,TRUE
 Windspeed is available.  ,Not available,matrix,met_matrix,,,TRUE
 "Please select whether any of these ancillary site-level data have been collected at your site (check all that apply).  PSInet is only actively collecting soil mositure release curves, but we are interested in knowing whether other data are available to support future synthesis projects.",Soil moisture release curves,checkbox,ancillary_avail,,,FALSE
 "Please select whether any of these ancillary site-level data have been collected at your site (check all that apply).  PSInet is only actively collecting soil mositure release curves, but we are interested in knowing whether other data are available to support future synthesis projects.",Leaf-level gas exchange survey measurements,checkbox,ancillary_avail,,,FALSE

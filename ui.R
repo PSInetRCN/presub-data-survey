@@ -4,5 +4,5 @@ fluidPage(
   surveyOutput(df = df,
                survey_title = "Pre-submission survey",
                survey_description = h4(HTML("Thank you for your interest in contributing to PSInet. Please complete the following form <b>for a single dataset</b> and we will contact you with further submission details.")),
-               theme = "#348DBC")
+               theme = "#358DBD")
 )
