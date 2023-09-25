@@ -8,8 +8,7 @@ function(input, output, session) {
     )
     
     # Retrieve existing datasheet
-    sheet_url <-
-      "https://docs.google.com/spreadsheets/d/1ITRoeX9TTGjkpKhOuqA2Ahr5xA6-K9gxPhcY6THQyKU/edit#gid=0"
+    sheet_url <- "https://docs.google.com/spreadsheets/d/14wDlPzgNjRf7eKpNRgfgn955Mk2nFsGXJWI51Pan2Z4/edit#gid=0"
     previous <- read_sheet(sheet_url)
     
     # Obtain and and append submitted results
@@ -38,24 +37,6 @@ function(input, output, session) {
         "Please reach out to Jessica Guo (jessicaguo@arizona.edu) and Michael Benson (micbenso@iu.edu) with any questions. "
       )
     )
-    
-    # Update summary stat data
-    
-    sumstat_sheet_url <-
-      "https://docs.google.com/spreadsheets/d/11ZGUlqbg9lgjeX-Kehj1ppaCQqKJRwA1L8XlTF_lvis/edit#gid=0"
-    previous_sum_stats <- read_sheet(sumstat_sheet_url)
-    
-    new_sum_stats <- data.frame(
-      timestamp = timestamp$response,
-      lat = input$lat,
-      long = input$long
-    )
-    
-    updated_sum_stats <- bind_rows(previous_sum_stats,
-                                   new_sum_stats)
-    
-    write_sheet(updated_sum_stats, ss = sumstat_sheet_url, sheet = 'Sheet1')
-    
     
   })
   
