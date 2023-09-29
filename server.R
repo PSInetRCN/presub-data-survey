@@ -2,14 +2,11 @@ function(input, output, session) {
   renderSurvey()
   
   observeEvent(input$submit, {
-    gs4_auth(
-      cache = gargle::gargle_oauth_cache(),
-      email = gargle::gargle_oauth_email()
-    )
     
-    # Retrieve existing datasheet
-    sheet_url <- "https://docs.google.com/spreadsheets/d/14wDlPzgNjRf7eKpNRgfgn955Mk2nFsGXJWI51Pan2Z4/edit#gid=0"
-    previous <- read_sheet(sheet_url)
+    posit_board <- board_connect()
+    
+    previous <- posit_board |>
+      pin_read("renatadiaz/presub_responses")
     
     # Obtain and and append submitted results
     response <- getSurveyData(custom_id = input$email,
@@ -27,8 +24,10 @@ function(input, output, session) {
     
     updated <- bind_rows(previous, response)
     
-    # Write back to Google sheet
-    write_sheet(updated, ss = sheet_url, sheet = 'Sheet1')
+    # Write back to pin
+    
+    posit_board |>
+      pin_write(updated, "renatadiaz/presub_responses")
     
     # Show submission message
     showModal(
