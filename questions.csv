@@ -51,30 +51,22 @@ Which kinds of plant water potential measurements are available from this study?
 "Has this plant water potential dataset, in whole or in part, been previously published?",Yes,y/n,data_published,,,TRUE
 "Has this plant water potential dataset, in whole or in part, been previously published?",No,y/n,data_published,,,TRUE
 "If yes, please list any relevant DOI's. ",Your answer,text,publication_doi,data_published,Yes,FALSE
-Soil water content is available. ,Manual,matrix,met_matrix,,,FALSE
-Soil water content is available. ,Automated,matrix,met_matrix,,,FALSE
-Soil water content is available. ,Not available,matrix,met_matrix,,,FALSE
-Soil water potential (in situ) is available. ,Manual,matrix,met_matrix,,,FALSE
-Soil water potential (in situ) is available. ,Automated,matrix,met_matrix,,,FALSE
-Soil water potential (in situ) is available. ,Not available,matrix,met_matrix,,,FALSE
-Relative humidity is available. ,Manual,matrix,met_matrix,,,FALSE
-Relative humidity is available. ,Automated,matrix,met_matrix,,,FALSE
-Relative humidity is available. ,Not available,matrix,met_matrix,,,FALSE
-Vapor pressure deficit is available. ,Manual,matrix,met_matrix,,,FALSE
-Vapor pressure deficit is available. ,Automated,matrix,met_matrix,,,FALSE
-Vapor pressure deficit is available. ,Not available,matrix,met_matrix,,,FALSE
-Air temperature is available. ,Manual,matrix,met_matrix,,,FALSE
-Air temperature is available. ,Automated,matrix,met_matrix,,,FALSE
-Air temperature is available. ,Not available,matrix,met_matrix,,,FALSE
-Photosynthetically active radiation (PPFD or PAR) is available. ,Manual,matrix,met_matrix,,,FALSE
-Photosynthetically active radiation (PPFD or PAR) is available. ,Automated,matrix,met_matrix,,,FALSE
-Photosynthetically active radiation (PPFD or PAR) is available. ,Not available,matrix,met_matrix,,,FALSE
-Solar or net radiation is available,Manual,matrix,met_matrix,,,FALSE
-Solar or net radiation is available,Automated,matrix,met_matrix,,,FALSE
-Solar or net radiation is available,Not available,matrix,met_matrix,,,FALSE
-Windspeed is available.  ,Manual,matrix,met_matrix,,,FALSE
-Windspeed is available.  ,Automated,matrix,met_matrix,,,FALSE
-Windspeed is available.  ,Not available,matrix,met_matrix,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Soil water content (manual collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Soil water content (automated collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Soil water potential (in situ) (manual collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Soil water potential (in situ) (automated collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Relative humidity (manual collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Relative humidity (automated collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Vapor pressure deficit (manual collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Vapor pressure deficit (automated collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Air temperature (manual collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Air temperature (automated collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Photosynthetically active radiation (PPFD or PAR) (manual collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Photosynthetically active radiation (PPFD or PAR) (automated collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Solar or net radiation (manual collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Solar or net radiation (automated collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Windspeed (manual collection),checkbox,met_avail,,,FALSE
+Please select whether any of these meteorological data are available for this study.,Windspeed (automated collection),checkbox,met_avail,,,FALSE
 "Please select whether any of these ancillary site-level data have been collected at your site (check all that apply).  PSInet is only actively collecting soil mositure release curves, but we are interested in knowing whether other data are available to support future synthesis projects.",Soil moisture release curves,checkbox,ancillary_avail,,,FALSE
 "Please select whether any of these ancillary site-level data have been collected at your site (check all that apply).  PSInet is only actively collecting soil mositure release curves, but we are interested in knowing whether other data are available to support future synthesis projects.",Leaf-level gas exchange survey measurements,checkbox,ancillary_avail,,,FALSE
 "Please select whether any of these ancillary site-level data have been collected at your site (check all that apply).  PSInet is only actively collecting soil mositure release curves, but we are interested in knowing whether other data are available to support future synthesis projects.",Leaf-level ACi or light response curves,checkbox,ancillary_avail,,,FALSE
