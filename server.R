@@ -23,14 +23,7 @@ function(input, output, session) {
       response = as.character(Sys.time())
     )
     
-    met_data_type <- data.frame(
-      subject_id = input$email,
-      question_id = "met_data_type",
-      question_type = "met_data_type",
-      response = "checkbox"
-    )
     response <- bind_rows(response, timestamp)
-    response <- bind_rows(response, met_data_type)
     
     updated <- bind_rows(previous, response)
     
