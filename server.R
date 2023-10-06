@@ -22,6 +22,8 @@ function(input, output, session) {
     
     response <- bind_rows(response, timestamp)
     
+    response <- response |>
+      mutate(response_id = max(previous$response_id) + 1)
     updated <- bind_rows(previous, response)
     
     # Write back to pin
