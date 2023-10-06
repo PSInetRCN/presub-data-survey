@@ -33,7 +33,7 @@ function(input, output, session) {
     showModal(
       modalDialog(
         title = "Thank you. We'll be in touch shortly with next steps",
-        "Please reach out to Jessica Guo (jessicaguo@arizona.edu) and Michael Benson (micbenso@iu.edu) with any questions. "
+        "Please reach out to Jessica Guo (jessicaguo@arizona.edu) or Renata Diaz (renatadiaz@arizona.edu) with any questions. "
       )
     )
     
